@@ -3,8 +3,98 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0, 16px;
+  background-color: blue;
+}
 .parent {
   display: grid;
   border: 1px solid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 150px;
+  gap: 20px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+.box1 {
+  border: 1px solid;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  text-align: center;
+  background-color: white;
+}
+.box2 {
+  border: 1px solid;
+
+  background-color: white;
+}
+.box3 {
+  border: 1px solid;
+  grid-column: span 2;
+
+  background-color: white;
+}
+
+.box4 {
+  border: 1px solid;
+  grid-column-start: ;
+  grid-column-end: ;
+
+  background-color: white;
+}
+
+.box5 {
+  border: 1px solid;
+  grid-row: span 2;
+
+  background-color: white;
+}
+
+.box6 {
+  border: 1px solid;
+  grid-column-start: ;
+  grid-column-end: ;
+
+  background-color: white;
+}
+
+.box7 {
+  border: 1px solid;
+  grid-column-start: ;
+  grid-column-end: ;
+
+  background-color: white;
+}
+
+.box8 {
+  border: 1px solid;
+  grid-row: span 2;
+
+  background-color: white;
+}
+
+.box9 {
+  border: 1px solid;
+  grid-column-start: ;
+  grid-column-end: ;
+
+  background-color: white;
+}
+
+.box10 {
+  border: 1px solid;
+  grid-column-start: ;
+  grid-column-end: ;
+
+  background-color: white;
+}
+
+.box11 {
+  border: 1px solid;
+  grid-column: span 2;
+
+  background-color: white;
 }
